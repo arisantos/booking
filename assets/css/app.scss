@@ -1,0 +1,55 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: #fcfcfc;
+}
+
+input[type="text"],
+textarea,
+.box {
+  background: #ffffff;
+  width: 100%;
+  border: 1px solid #c3af66;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height:1.5rem;
+  font-weight: 300;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #c4c4c4;
+}
+
+
+@media (min-width: 640px) {
+  .sm\:container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sm\:container,
+  .md\:container {
+    max-width: 768px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .sm\:container,
+  .md\:container,
+  .lg\:container {
+    max-width: 1024px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .sm\:container,
+  .md\:container,
+  .lg\:container,
+  .xl\:container {
+    max-width: 1280px;
+  }
+}
